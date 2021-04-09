@@ -33,7 +33,7 @@ brew install --cask tunnelblick
 brew install vim awscli nmap curl wget htop golang pyenv zlib sqlite
 
 # install zsh plugins
-brew install zsh-autosuggestions zsh-syntax-highlighting 
+brew install zsh-autosuggestions zsh-syntax-highlighting
 
 # add plugins to .zshrc
 echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
@@ -76,3 +76,14 @@ vagrant plugin install vagrant-hostsupdater
 
 # install virtualbox
 brew install --cask virtualbox
+
+# install chamber
+brew install chamber
+
+# install tfswitch
+brew install warrensbox/tap/tfswitch
+
+# install ultimate vim conf
+brew install --cask homebrew/cask-fonts/font-ibm-plex
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
