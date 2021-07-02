@@ -84,6 +84,7 @@ plugins=(
   git 
   zsh-autosuggestions
   zsh-syntax-highlighting
+  tmux
 )
 
 # Sources
@@ -97,7 +98,16 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/Users/taylorturner/.pyenv/shims:${PATH}"
 export PYENV_SHELL=zsh
 eval "$(pyenv init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # Aliases
+alias dlogin="aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 898245197257.dkr.ecr.us-east-1.amazonaws.com"
+alias dlogin-oregon="aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 898245197257.dkr.ecr.us-west-2.amazonaws.com"
+alias pw="cd ~/code/payjoy_www"
+alias pp="cd ~/code/payjoy_playbooks"
+alias pc="cd ~/code/payjoy_containers"
+alias wp2="cd ~/code/payjoy_wordpress_v2"
+alias pt="cd ~/code/payjoy_terraform"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"

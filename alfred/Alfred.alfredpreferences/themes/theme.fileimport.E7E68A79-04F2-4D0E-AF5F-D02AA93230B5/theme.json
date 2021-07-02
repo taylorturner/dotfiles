@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 10,
+        "colorSelected" : "#FEFFFEC4",
+        "font" : "System",
+        "color" : "#C6C6C665"
+      },
+      "shortcut" : {
+        "size" : 18,
+        "colorSelected" : "#FEFFFEFF",
+        "font" : "System Light",
+        "color" : "#CD0055FF"
+      },
+      "backgroundSelected" : "#0000001A",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FEFFFEFF",
+        "font" : "System",
+        "color" : "#D7D7D7E5"
+      },
+      "iconPaddingHorizontal" : 13,
+      "roundness" : 0,
+      "paddingVertical" : 16,
+      "iconSize" : 29
+    },
+    "search" : {
+      "backgroundSelected" : "#CD0055FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 64,
+        "colorSelected" : "#000000FF",
+        "font" : "DIN Next LT Pro Medium",
+        "color" : "#F2F2F2FF"
+      },
+      "background" : "#00000000",
+      "roundness" : 0,
+      "paddingVertical" : 16
+    },
+    "window" : {
+      "color" : "#171717E5",
+      "paddingHorizontal" : 15,
+      "width" : 698,
+      "borderPadding" : 0,
+      "borderColor" : "#171717EC",
+      "blur" : 40,
+      "roundness" : 12,
+      "paddingVertical" : 11
+    },
+    "credit" : "Felix Queisler (queisler.de)",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#7A7A7AFF",
+      "thickness" : 2
+    },
+    "name" : "Minimal 2019"
+  }
+}
