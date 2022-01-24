@@ -19,7 +19,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 
 " git wrapper
-Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-fugitive'
 
 " tree explorer
 Plug 'scrooloose/nerdtree'
@@ -61,10 +61,10 @@ set encoding=utf-8
 
 " Whitespace
 set wrap
-set textwidth=79
+set textwidth=124
 set formatoptions=tcqrn1
 set tabstop=2
-set shiftwidth=2
+set shiftwidth=1
 set softtabstop=2
 set expandtab
 set noshiftround
